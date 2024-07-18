@@ -1,0 +1,11 @@
+CRITICAL - 2022-12-06 17:27:41 --> Undefined variable: duragtion
+#0 /home/darkesp1/dark-esp-yt.tk/app/Views/Keys/generate.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/darkesp1/...', 65, Array)
+#1 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/darkesp1/...')
+#2 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Keys/generate', Array, true)
+#4 /home/darkesp1/dark-esp-yt.tk/app/Controllers/Keys.php(326): view('Keys/generate', Array)
+#5 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#6 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#7 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/darkesp1/dark-esp-yt.tk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

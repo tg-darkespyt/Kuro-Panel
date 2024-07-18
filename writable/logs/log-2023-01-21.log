@@ -1,0 +1,88 @@
+CRITICAL - 2023-01-21 01:05:11 --> Unknown column 'email' in 'field list'
+#0 /home/mrblacke/public_html/mail.php(14): mysqli_query(Object(mysqli), 'SELECT email FR...')
+#1 /home/mrblacke/public_html/app/Views/User/dashboard.php(4): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('User/dashboard', Array, true)
+#5 /home/mrblacke/public_html/app/Controllers/User.php(35): view('User/dashboard', Array)
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-21 01:05:14 --> Unknown column 'email' in 'field list'
+#0 /home/mrblacke/public_html/mail.php(14): mysqli_query(Object(mysqli), 'SELECT email FR...')
+#1 /home/mrblacke/public_html/app/Views/User/dashboard.php(4): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('User/dashboard', Array, true)
+#5 /home/mrblacke/public_html/app/Controllers/User.php(35): view('User/dashboard', Array)
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-21 01:05:16 --> Unknown column 'email' in 'field list'
+#0 /home/mrblacke/public_html/mail.php(14): mysqli_query(Object(mysqli), 'SELECT email FR...')
+#1 /home/mrblacke/public_html/app/Views/User/dashboard.php(4): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('User/dashboard', Array, true)
+#5 /home/mrblacke/public_html/app/Controllers/User.php(35): view('User/dashboard', Array)
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-21 01:05:18 --> Unknown column 'email' in 'field list'
+#0 /home/mrblacke/public_html/mail.php(14): mysqli_query(Object(mysqli), 'SELECT email FR...')
+#1 /home/mrblacke/public_html/app/Views/User/dashboard.php(4): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('User/dashboard', Array, true)
+#5 /home/mrblacke/public_html/app/Controllers/User.php(35): view('User/dashboard', Array)
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-21 01:22:02 --> Table 'mrblacke_db._ftext' doesn't exist
+#0 /home/mrblacke/public_html/app/Controllers/Connect.php(160): mysqli_query(Object(mysqli), 'select * from _...')
+#1 /home/mrblacke/public_html/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-21 01:23:04 --> Table 'mrblacke_db._ftext' doesn't exist
+#0 /home/mrblacke/public_html/app/Controllers/Connect.php(160): mysqli_query(Object(mysqli), 'select * from _...')
+#1 /home/mrblacke/public_html/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-21 20:47:08 --> Undefined variable: idKeys
+#0 /home/mrblacke/public_html/app/Controllers/Keys.php(563): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/mrblacke/...', 563, Array)
+#1 /home/mrblacke/public_html/app/Controllers/Keys.php(399): App\Controllers\Keys->generate_action()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-21 23:27:56 --> Undefined variable: idKeys
+#0 /home/mrblacke/public_html/app/Controllers/Keys.php(563): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/mrblacke/...', 563, Array)
+#1 /home/mrblacke/public_html/app/Controllers/Keys.php(399): App\Controllers\Keys->generate_action()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-21 23:47:29 --> Undefined variable: idKeys
+#0 /home/mrblacke/public_html/app/Controllers/Keys.php(563): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/mrblacke/...', 563, Array)
+#1 /home/mrblacke/public_html/app/Controllers/Keys.php(399): App\Controllers\Keys->generate_action()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

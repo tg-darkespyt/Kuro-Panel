@@ -1,0 +1,68 @@
+CRITICAL - 2023-02-25 11:51:28 --> Undefined index: key
+#0 /home/darkesp1/public_html/app/Views/User/reset.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 2, Array)
+#1 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/darkesp1/...')
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('User/reset', Array, true)
+#4 /home/darkesp1/public_html/app/Controllers/User.php(294): view('User/reset', Array)
+#5 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->reset()
+#6 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-25 16:38:34 --> Undefined index: reset_link_token
+#0 /home/darkesp1/public_html/app/Views/User/update.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 2, Array)
+#1 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/darkesp1/...')
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('User/update', Array, true)
+#4 /home/darkesp1/public_html/app/Controllers/User.php(335): view('User/update', Array)
+#5 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->update()
+#6 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-25 16:39:42 --> Undefined index: key
+#0 /home/darkesp1/public_html/app/Views/User/reset.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 2, Array)
+#1 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/darkesp1/...')
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('User/reset', Array, true)
+#4 /home/darkesp1/public_html/app/Controllers/User.php(294): view('User/reset', Array)
+#5 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->reset()
+#6 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-25 16:42:11 --> Undefined index: key
+#0 /home/darkesp1/public_html/app/Views/User/reset.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 2, Array)
+#1 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/darkesp1/...')
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('User/reset', Array, true)
+#4 /home/darkesp1/public_html/app/Controllers/User.php(294): view('User/reset', Array)
+#5 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->reset()
+#6 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-25 17:02:18 --> Undefined index: HTTP_USER_AGENT
+#0 /home/darkesp1/public_html/mail.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 44, Array)
+#1 /home/darkesp1/public_html/app/Views/Auth/login.php(4): include('/home/darkesp1/...')
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/darkesp1/...')
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#5 /home/darkesp1/public_html/app/Controllers/Auth.php(54): view('Auth/login', Array)
+#6 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#7 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-25 21:23:20 --> Undefined index: HTTP_USER_AGENT
+#0 /home/darkesp1/public_html/mail.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 44, Array)
+#1 /home/darkesp1/public_html/app/Views/Auth/login.php(4): include('/home/darkesp1/...')
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/darkesp1/...')
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#5 /home/darkesp1/public_html/app/Controllers/Auth.php(54): view('Auth/login', Array)
+#6 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#7 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#10 {main}

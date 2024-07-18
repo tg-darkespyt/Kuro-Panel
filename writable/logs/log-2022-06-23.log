@@ -1,0 +1,99 @@
+CRITICAL - 2022-06-23 23:12:20 --> Undefined variable: route
+#0 /home/linuxedu/public_html/FallenXonline/app/Config/Routes.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/linuxedu/...', 70, Array)
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Router/RouteCollection.php(607): CodeIgniter\CodeIgniter->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#2 /home/linuxedu/public_html/FallenXonline/app/Config/Routes.php(75): CodeIgniter\Router\RouteCollection->group('admin', Array, Object(Closure))
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(705): require('/home/linuxedu/...')
+#4 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-23 23:16:10 --> Class 'App\Controllers\PostModel' not found
+#0 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->alterUser()
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-23 23:17:09 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-06-23 23:17:09 --> Unknown column 'id' in 'where clause'
+#0 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('DELETE FROM `us...', 0)
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `us...')
+#2 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `us...')
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2213): CodeIgniter\Database\BaseConnection->query('DELETE FROM `us...', Array, false)
+#4 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 /home/linuxedu/public_html/FallenXonline/app/Controllers/User.php(126): CodeIgniter\BaseModel->delete()
+#7 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->alterUser()
+#8 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-23 23:23:02 --> Trying to get property 'level' of non-object
+#0 /home/linuxedu/public_html/FallenXonline/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/linuxedu/...', 71, Array)
+#1 /home/linuxedu/public_html/FallenXonline/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/manage-us...', 'before')
+#4 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-23 23:23:35 --> Trying to get property 'level' of non-object
+#0 /home/linuxedu/public_html/FallenXonline/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/linuxedu/...', 71, Array)
+#1 /home/linuxedu/public_html/FallenXonline/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('admin/manage-us...', 'before')
+#4 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-23 23:37:38 --> Undefined variable: model
+#0 /home/linuxedu/public_html/FallenXonline/app/Controllers/Keys.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/linuxedu/...', 69, Array)
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->alterKeys()
+#2 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-23 23:37:48 --> Undefined variable: model
+#0 /home/linuxedu/public_html/FallenXonline/app/Controllers/Keys.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/linuxedu/...', 69, Array)
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->alterKeys()
+#2 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-23 23:40:36 --> syntax error, unexpected '$model' (T_VARIABLE), expecting ';' or ','
+#0 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/linuxedu/...')
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-23 23:40:39 --> syntax error, unexpected '$model' (T_VARIABLE), expecting ';' or ','
+#0 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/linuxedu/...')
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-23 23:40:42 --> syntax error, unexpected '$model' (T_VARIABLE), expecting ';' or ','
+#0 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/linuxedu/...')
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-23 23:40:57 --> syntax error, unexpected '$model' (T_VARIABLE), expecting ';' or ','
+#0 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/linuxedu/...')
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

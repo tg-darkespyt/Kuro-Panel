@@ -1,0 +1,116 @@
+CRITICAL - 2023-02-19 00:48:25 --> include(connect.html): failed to open stream: No such file or directory
+#0 /home/darkesp1/public_html/app/Controllers/Connect.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(connect...', '/home/darkesp1/...', 91, Array)
+#1 /home/darkesp1/public_html/app/Controllers/Connect.php(91): include()
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-19 00:48:26 --> include(connect.html): failed to open stream: No such file or directory
+#0 /home/darkesp1/public_html/app/Controllers/Connect.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(connect...', '/home/darkesp1/...', 91, Array)
+#1 /home/darkesp1/public_html/app/Controllers/Connect.php(91): include()
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-19 00:48:31 --> include(connect.html): failed to open stream: No such file or directory
+#0 /home/darkesp1/public_html/app/Controllers/Connect.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(connect...', '/home/darkesp1/...', 91, Array)
+#1 /home/darkesp1/public_html/app/Controllers/Connect.php(91): include()
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-19 00:48:36 --> include(connect.html): failed to open stream: No such file or directory
+#0 /home/darkesp1/public_html/app/Controllers/Connect.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(connect...', '/home/darkesp1/...', 91, Array)
+#1 /home/darkesp1/public_html/app/Controllers/Connect.php(91): include()
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-19 00:48:37 --> include(connect.html): failed to open stream: No such file or directory
+#0 /home/darkesp1/public_html/app/Controllers/Connect.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(connect...', '/home/darkesp1/...', 91, Array)
+#1 /home/darkesp1/public_html/app/Controllers/Connect.php(91): include()
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-19 00:48:41 --> include(connect.html): failed to open stream: No such file or directory
+#0 /home/darkesp1/public_html/app/Controllers/Connect.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(connect...', '/home/darkesp1/...', 91, Array)
+#1 /home/darkesp1/public_html/app/Controllers/Connect.php(91): include()
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-19 00:48:50 --> include(connect.html): failed to open stream: No such file or directory
+#0 /home/darkesp1/public_html/app/Controllers/Connect.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(connect...', '/home/darkesp1/...', 91, Array)
+#1 /home/darkesp1/public_html/app/Controllers/Connect.php(91): include()
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-19 01:07:43 --> include(connect.html): failed to open stream: No such file or directory
+#0 /home/darkesp1/public_html/app/Controllers/Connect.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(connect...', '/home/darkesp1/...', 91, Array)
+#1 /home/darkesp1/public_html/app/Controllers/Connect.php(91): include()
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-19 01:10:43 --> include(connect.html): failed to open stream: No such file or directory
+#0 /home/darkesp1/public_html/app/Controllers/Connect.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(connect...', '/home/darkesp1/...', 91, Array)
+#1 /home/darkesp1/public_html/app/Controllers/Connect.php(91): include()
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-19 01:10:47 --> include(connect.html): failed to open stream: No such file or directory
+#0 /home/darkesp1/public_html/app/Controllers/Connect.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(connect...', '/home/darkesp1/...', 91, Array)
+#1 /home/darkesp1/public_html/app/Controllers/Connect.php(91): include()
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-19 01:00:19 --> Undefined index: HTTP_USER_AGENT
+#0 /home/darkesp1/public_html/mail.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 44, Array)
+#1 /home/darkesp1/public_html/app/Views/Auth/login.php(4): include('/home/darkesp1/...')
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/darkesp1/...')
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#5 /home/darkesp1/public_html/app/Controllers/Auth.php(54): view('Auth/login', Array)
+#6 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#7 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-19 01:32:40 --> Undefined index: HTTP_USER_AGENT
+#0 /home/darkesp1/public_html/mail.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 44, Array)
+#1 /home/darkesp1/public_html/app/Views/Auth/login.php(4): include('/home/darkesp1/...')
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/darkesp1/...')
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#5 /home/darkesp1/public_html/app/Controllers/Auth.php(54): view('Auth/login', Array)
+#6 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#7 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-19 09:03:24 --> Undefined index: HTTP_USER_AGENT
+#0 /home/darkesp1/public_html/mail.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 44, Array)
+#1 /home/darkesp1/public_html/app/Views/Auth/login.php(4): include('/home/darkesp1/...')
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/darkesp1/...')
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#5 /home/darkesp1/public_html/app/Controllers/Auth.php(54): view('Auth/login', Array)
+#6 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#7 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#10 {main}

@@ -1,0 +1,22 @@
+CRITICAL - 2022-12-13 21:14:44 --> Trying to access array offset on value of type null
+#0 /home/darkesp1/dark-esp-yt.tk/app/Views/Server/Server.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/darkesp1/...', 39, Array)
+#1 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/darkesp1/...')
+#2 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/Server', Array, true)
+#4 /home/darkesp1/dark-esp-yt.tk/app/Controllers/User.php(312): view('Server/Server', Array)
+#5 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#6 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/darkesp1/dark-esp-yt.tk/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-13 21:25:46 --> Unknown column 'size' in 'field list'
+#0 /home/darkesp1/dark-esp-yt.tk/app/Views/Server/Server.php(23): mysqli_query(Object(mysqli), 'SELECT size FRO...')
+#1 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/darkesp1/...')
+#2 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/Server', Array, true)
+#4 /home/darkesp1/dark-esp-yt.tk/app/Controllers/User.php(312): view('Server/Server', Array)
+#5 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#6 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/darkesp1/dark-esp-yt.tk/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,54 @@
+ERROR - 2022-07-13 14:01:02 --> Error connecting to the database: Too many connections
+CRITICAL - 2022-07-13 14:01:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/linuxedu/public_html/traineeweb.xyz/app/Models/KeysModel.php(26): CodeIgniter\Model->__call('get', Array)
+#4 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/Connect.php(185): App\Models\KeysModel->getKeysGame(Array)
+#5 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#6 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#7 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#8 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/linuxedu/public_html/traineeweb.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-13 15:49:40 --> Trying to get property 'level' of non-object
+#0 /home/linuxedu/public_html/traineeweb.xyz/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/linuxedu/...', 71, Array)
+#1 /home/linuxedu/public_html/traineeweb.xyz/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('keys/generate', 'before')
+#4 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxedu/public_html/traineeweb.xyz/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-13 15:49:41 --> Trying to get property 'level' of non-object
+#0 /home/linuxedu/public_html/traineeweb.xyz/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/linuxedu/...', 71, Array)
+#1 /home/linuxedu/public_html/traineeweb.xyz/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxedu/public_html/traineeweb.xyz/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-13 15:49:59 --> Trying to get property 'level' of non-object
+#0 /home/linuxedu/public_html/traineeweb.xyz/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/linuxedu/...', 71, Array)
+#1 /home/linuxedu/public_html/traineeweb.xyz/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxedu/public_html/traineeweb.xyz/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-13 15:50:06 --> Trying to get property 'level' of non-object
+#0 /home/linuxedu/public_html/traineeweb.xyz/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/linuxedu/...', 71, Array)
+#1 /home/linuxedu/public_html/traineeweb.xyz/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxedu/public_html/traineeweb.xyz/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-13 19:59:17 --> Trying to get property 'level' of non-object
+#0 /home/linuxedu/public_html/traineeweb.xyz/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/linuxedu/...', 71, Array)
+#1 /home/linuxedu/public_html/traineeweb.xyz/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxedu/public_html/traineeweb.xyz/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

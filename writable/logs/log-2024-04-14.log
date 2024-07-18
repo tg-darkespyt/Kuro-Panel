@@ -1,0 +1,58 @@
+CRITICAL - 2024-04-14 01:33:45 --> syntax error, unexpected end of file
+#0 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('User/dashboard', Array, true)
+#2 /home/dora30319318/public_html/api_user/app/Controllers/User.php(52): view('User/dashboard', Array)
+#3 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#4 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/dora30319318/public_html/api_user/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-04-14 00:06:09 --> Undefined variable: in
+#0 /home/dora30319318/public_html/api_user/app/Views/User/dashboard.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/dora30319...', 73, Array)
+#1 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/dora30319...')
+#2 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('User/dashboard', Array, true)
+#4 /home/dora30319318/public_html/api_user/app/Controllers/User.php(52): view('User/dashboard', Array)
+#5 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#6 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dora30319318/public_html/api_user/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-14 00:06:36 --> Undefined variable: in
+#0 /home/dora30319318/public_html/api_user/app/Views/User/dashboard.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/dora30319...', 73, Array)
+#1 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/dora30319...')
+#2 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('User/dashboard', Array, true)
+#4 /home/dora30319318/public_html/api_user/app/Controllers/User.php(52): view('User/dashboard', Array)
+#5 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#6 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dora30319318/public_html/api_user/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-14 00:06:56 --> Undefined variable: in
+#0 /home/dora30319318/public_html/api_user/app/Views/User/dashboard.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/dora30319...', 75, Array)
+#1 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/dora30319...')
+#2 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('User/dashboard', Array, true)
+#4 /home/dora30319318/public_html/api_user/app/Controllers/User.php(52): view('User/dashboard', Array)
+#5 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#6 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dora30319318/public_html/api_user/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-14 02:37:53 --> Trying to access array offset on value of type null
+#0 /home/dora30319318/public_html/Mod_NRG/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/dora30319...', 21, Array)
+#1 /home/dora30319318/public_html/Mod_NRG/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/dora30319318/public_html/Mod_NRG/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/dora30319318/public_html/Mod_NRG/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/dora30319318/public_html/Mod_NRG/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-14 03:04:31 --> Undefined offset: 0
+#0 /home/dora30319318/public_html/Mod_NRG/app/Helpers/nata_helper.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/dora30319...', 87, Array)
+#1 /home/dora30319318/public_html/Mod_NRG/app/Controllers/Keys.php(734): getPrice(Array, '0', '1', '1')
+#2 /home/dora30319318/public_html/Mod_NRG/app/Controllers/Keys.php(703): App\Controllers\Keys->generate_action()
+#3 /home/dora30319318/public_html/Mod_NRG/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#4 /home/dora30319318/public_html/Mod_NRG/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#5 /home/dora30319318/public_html/Mod_NRG/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/dora30319318/public_html/Mod_NRG/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

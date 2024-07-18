@@ -1,0 +1,8 @@
+CRITICAL - 2022-07-10 09:50:51 --> Undefined variable: idKeys
+#0 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/Keys.php(457): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/linuxedu/...', 457, Array)
+#1 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/Keys.php(306): App\Controllers\Keys->generate_action()
+#2 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxedu/public_html/traineeweb.xyz/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

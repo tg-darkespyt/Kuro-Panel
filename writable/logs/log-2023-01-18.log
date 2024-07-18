@@ -1,0 +1,372 @@
+CRITICAL - 2023-01-18 17:45:42 --> syntax error, unexpected '=', expecting ')'
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/mrblacke/...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-18 17:49:03 --> Undefined variable: username
+#0 /home/mrblacke/public_html/app/Controllers/Keys.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/mrblacke/...', 122, Array)
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->deleteKeys()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-18 17:51:30 --> Cannot use Config\Services as Services because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-01-18 17:52:03 --> Call to undefined method App\Models\KeysModel::empty
+#0 /home/mrblacke/public_html/app/Controllers/Keys.php(124): CodeIgniter\Model->__call('empty', Array)
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->deleteKeys()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-18 17:59:12 --> syntax error, unexpected ','
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/mrblacke/...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-18 18:03:12 --> Call to a member function getPost() on null
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Keys->__construct()
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-18 18:06:40 --> Call to undefined method App\Controllers\Keys::session()
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Keys->__construct()
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-18 18:11:49 --> Call to undefined method stdClass::where()
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Keys->__construct()
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-18 18:16:47 --> Class 'App\Controllers\DB' not found
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Keys->__construct()
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-18 18:19:45 --> Undefined property: App\Controllers\Keys::$db
+#0 /home/mrblacke/public_html/app/Controllers/Keys.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/mrblacke/...', 23, Array)
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Keys->__construct()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-18 18:23:06 --> Call to undefined method App\Controllers\Keys::getUserid()
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Keys->__construct()
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-18 18:29:49 --> Object of class stdClass could not be converted to string
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Keys->__construct()
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-18 18:33:40 --> syntax error, unexpected '1' (T_LNUMBER), expecting ']'
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/mrblacke/...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-18 18:34:13 --> Object of class stdClass could not be converted to string
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Keys->__construct()
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-01-18 18:44:15 --> Unknown column 'Owner' in 'where clause'
+CRITICAL - 2023-01-18 18:44:15 --> Unknown column 'Owner' in 'where clause'
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('DELETE FROM `ke...', 0)
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ke...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ke...')
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2213): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ke...', Array, false)
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 /home/mrblacke/public_html/app/Controllers/Keys.php(128): CodeIgniter\BaseModel->delete()
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->deleteKeys()
+#8 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#9 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-01-18 18:45:23 --> Unknown column 'Owner' in 'where clause'
+CRITICAL - 2023-01-18 18:45:23 --> Unknown column 'Owner' in 'where clause'
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('DELETE FROM `ke...', 0)
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ke...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ke...')
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2213): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ke...', Array, false)
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 /home/mrblacke/public_html/app/Controllers/Keys.php(128): CodeIgniter\BaseModel->delete()
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->deleteKeys()
+#8 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#9 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-18 19:32:21 --> Undefined variable: idKeys
+#0 /home/mrblacke/public_html/app/Controllers/Keys.php(488): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/mrblacke/...', 488, Array)
+#1 /home/mrblacke/public_html/app/Controllers/Keys.php(324): App\Controllers\Keys->generate_action()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-18 18:23:57 --> syntax error, unexpected 'endif' (T_ENDIF), expecting end of file
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(432): CodeIgniter\View\View->render('Layout/Header', NULL, true)
+#2 /home/mrblacke/public_html/app/Views/Layout/Starter.php(28): CodeIgniter\View\View->include('Layout/Header')
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(230): CodeIgniter\View\View->render('Layout/Starter', Array, true)
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('User/dashboard', Array, true)
+#7 /home/mrblacke/public_html/app/Controllers/User.php(35): view('User/dashboard', Array)
+#8 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#9 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-18 20:50:05 --> Undefined variable: idKeys
+#0 /home/mrblacke/public_html/app/Controllers/Keys.php(560): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/mrblacke/...', 560, Array)
+#1 /home/mrblacke/public_html/app/Controllers/Keys.php(396): App\Controllers\Keys->generate_action()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-18 20:50:39 --> Undefined variable: idKeys
+#0 /home/mrblacke/public_html/app/Controllers/Keys.php(560): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/mrblacke/...', 560, Array)
+#1 /home/mrblacke/public_html/app/Controllers/Keys.php(396): App\Controllers\Keys->generate_action()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-18 21:00:51 --> syntax error, unexpected ''expired'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/mrblacke/...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-18 21:13:53 --> Undefined variable: idKeys
+#0 /home/mrblacke/public_html/app/Controllers/Keys.php(563): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/mrblacke/...', 563, Array)
+#1 /home/mrblacke/public_html/app/Controllers/Keys.php(399): App\Controllers\Keys->generate_action()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-18 22:32:13 --> Undefined variable: idKeys
+#0 /home/mrblacke/public_html/app/Controllers/Keys.php(563): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/mrblacke/...', 563, Array)
+#1 /home/mrblacke/public_html/app/Controllers/Keys.php(399): App\Controllers\Keys->generate_action()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-18 23:00:49 --> Undefined variable: idKeys
+#0 /home/mrblacke/public_html/app/Controllers/Keys.php(563): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/mrblacke/...', 563, Array)
+#1 /home/mrblacke/public_html/app/Controllers/Keys.php(399): App\Controllers\Keys->generate_action()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-18 23:26:15 --> Trying to get property 'level' of non-object
+#0 /home/mrblacke/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/mrblacke/...', 71, Array)
+#1 /home/mrblacke/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-18 23:26:23 --> Trying to get property 'level' of non-object
+#0 /home/mrblacke/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/mrblacke/...', 71, Array)
+#1 /home/mrblacke/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-18 23:27:18 --> Trying to get property 'level' of non-object
+#0 /home/mrblacke/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/mrblacke/...', 71, Array)
+#1 /home/mrblacke/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-18 23:28:41 --> Trying to get property 'level' of non-object
+#0 /home/mrblacke/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/mrblacke/...', 71, Array)
+#1 /home/mrblacke/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-18 23:30:04 --> Trying to get property 'level' of non-object
+#0 /home/mrblacke/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/mrblacke/...', 71, Array)
+#1 /home/mrblacke/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-18 23:30:10 --> Trying to get property 'level' of non-object
+#0 /home/mrblacke/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/mrblacke/...', 71, Array)
+#1 /home/mrblacke/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-18 23:30:23 --> Trying to get property 'level' of non-object
+#0 /home/mrblacke/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/mrblacke/...', 71, Array)
+#1 /home/mrblacke/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-18 23:31:06 --> Trying to get property 'level' of non-object
+#0 /home/mrblacke/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/mrblacke/...', 71, Array)
+#1 /home/mrblacke/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-18 23:31:11 --> Trying to get property 'level' of non-object
+#0 /home/mrblacke/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/mrblacke/...', 71, Array)
+#1 /home/mrblacke/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-18 23:31:57 --> Trying to get property 'level' of non-object
+#0 /home/mrblacke/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/mrblacke/...', 71, Array)
+#1 /home/mrblacke/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-18 23:32:04 --> Trying to get property 'level' of non-object
+#0 /home/mrblacke/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/mrblacke/...', 71, Array)
+#1 /home/mrblacke/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-18 23:32:28 --> Trying to get property 'level' of non-object
+#0 /home/mrblacke/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/mrblacke/...', 71, Array)
+#1 /home/mrblacke/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-18 23:34:51 --> Trying to get property 'level' of non-object
+#0 /home/mrblacke/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/mrblacke/...', 71, Array)
+#1 /home/mrblacke/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-18 23:36:28 --> Trying to get property 'level' of non-object
+#0 /home/mrblacke/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/mrblacke/...', 71, Array)
+#1 /home/mrblacke/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-18 23:36:44 --> Trying to get property 'level' of non-object
+#0 /home/mrblacke/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/mrblacke/...', 71, Array)
+#1 /home/mrblacke/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-18 23:37:26 --> Trying to get property 'level' of non-object
+#0 /home/mrblacke/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/mrblacke/...', 71, Array)
+#1 /home/mrblacke/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-18 23:40:28 --> Trying to get property 'level' of non-object
+#0 /home/mrblacke/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/mrblacke/...', 71, Array)
+#1 /home/mrblacke/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-18 23:44:28 --> Trying to get property 'level' of non-object
+#0 /home/mrblacke/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/mrblacke/...', 71, Array)
+#1 /home/mrblacke/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-18 23:44:30 --> Trying to get property 'level' of non-object
+#0 /home/mrblacke/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/mrblacke/...', 71, Array)
+#1 /home/mrblacke/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-18 23:44:34 --> Trying to get property 'level' of non-object
+#0 /home/mrblacke/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/mrblacke/...', 71, Array)
+#1 /home/mrblacke/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-18 23:44:38 --> Trying to get property 'level' of non-object
+#0 /home/mrblacke/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/mrblacke/...', 71, Array)
+#1 /home/mrblacke/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-01-18 23:44:43 --> Trying to get property 'level' of non-object
+#0 /home/mrblacke/public_html/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/mrblacke/...', 71, Array)
+#1 /home/mrblacke/public_html/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

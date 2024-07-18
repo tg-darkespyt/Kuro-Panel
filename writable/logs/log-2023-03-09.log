@@ -1,0 +1,16 @@
+CRITICAL - 2023-03-09 16:06:00 --> Undefined variable: wow
+#0 /home/darkesp1/public_html/app/Controllers/User.php(425): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/darkesp1/...', 425, Array)
+#1 /home/darkesp1/public_html/app/Controllers/User.php(380): App\Controllers\User->_ftext_act()
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-09 16:06:27 --> Undefined variable: wow
+#0 /home/darkesp1/public_html/app/Controllers/User.php(425): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/darkesp1/...', 425, Array)
+#1 /home/darkesp1/public_html/app/Controllers/User.php(380): App\Controllers\User->_ftext_act()
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}

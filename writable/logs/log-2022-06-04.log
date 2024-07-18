@@ -1,0 +1,134 @@
+CRITICAL - 2022-06-04 00:28:59 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /storage/ssd1/780/17265780/public_html/app/Controllers/User.php(282): view()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-04 00:29:27 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /storage/ssd1/780/17265780/public_html/app/Controllers/User.php(282): view()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-04 00:29:36 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /storage/ssd1/780/17265780/public_html/app/Controllers/User.php(282): view()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-04 00:30:12 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /storage/ssd1/780/17265780/public_html/app/Controllers/User.php(282): view()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-04 00:35:12 --> Undefined variable: user
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/User.php(250): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-04 00:35:14 --> Undefined variable: user
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/User.php(250): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-04 00:36:22 --> Undefined variable: user
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/User.php(250): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-04 00:36:24 --> Undefined variable: user
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/User.php(250): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-04 00:38:26 --> Undefined variable: user
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/User.php(250): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-04 00:49:37 --> Undefined variable: user
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/User.php(250): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-04 00:52:31 --> Undefined variable: user
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/User.php(250): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-04 00:52:33 --> Undefined variable: user
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/User.php(250): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-04 00:53:59 --> Undefined variable: user
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/User.php(250): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-04 00:54:02 --> Undefined variable: user
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/User.php(250): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-04 00:54:21 --> Undefined variable: user
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/User.php(250): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-04 00:54:24 --> Undefined variable: user
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/User.php(250): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-04 00:54:33 --> Undefined variable: user
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/User.php(250): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-04 00:54:35 --> Undefined variable: user
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/User.php(250): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

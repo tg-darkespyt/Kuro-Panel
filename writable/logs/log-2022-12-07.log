@@ -1,0 +1,48 @@
+CRITICAL - 2022-12-07 04:09:08 --> syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$'
+#0 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/Controller.php(85): helper(Array)
+#1 /home/darkesp1/dark-esp-yt.tk/app/Controllers/BaseController.php(52): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/dark-esp-yt.tk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-07 04:11:23 --> syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$'
+#0 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/Controller.php(85): helper(Array)
+#1 /home/darkesp1/dark-esp-yt.tk/app/Controllers/BaseController.php(52): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/dark-esp-yt.tk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-07 04:14:42 --> syntax error, unexpected '$', expecting variable (T_VARIABLE)
+#0 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/Controller.php(85): helper(Array)
+#1 /home/darkesp1/dark-esp-yt.tk/app/Controllers/BaseController.php(52): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/dark-esp-yt.tk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-07 04:15:58 --> syntax error, unexpected 'var' (T_VAR)
+#0 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/Controller.php(85): helper(Array)
+#1 /home/darkesp1/dark-esp-yt.tk/app/Controllers/BaseController.php(52): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/dark-esp-yt.tk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-07 04:16:58 --> Too few arguments to function getPrice(), 3 passed in /home/darkesp1/dark-esp-yt.tk/app/Controllers/Keys.php on line 337 and exactly 4 expected
+#0 /home/darkesp1/dark-esp-yt.tk/app/Controllers/Keys.php(337): getPrice(Array, '3', '1')
+#1 /home/darkesp1/dark-esp-yt.tk/app/Controllers/Keys.php(306): App\Controllers\Keys->generate_action()
+#2 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/dark-esp-yt.tk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-07 04:21:18 --> Too few arguments to function getPrice(), 3 passed in /home/darkesp1/dark-esp-yt.tk/app/Controllers/Keys.php on line 337 and exactly 4 expected
+#0 /home/darkesp1/dark-esp-yt.tk/app/Controllers/Keys.php(337): getPrice(Array, '1', '1')
+#1 /home/darkesp1/dark-esp-yt.tk/app/Controllers/Keys.php(306): App\Controllers\Keys->generate_action()
+#2 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/dark-esp-yt.tk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

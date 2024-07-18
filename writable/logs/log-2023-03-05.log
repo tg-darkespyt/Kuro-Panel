@@ -1,0 +1,24 @@
+CRITICAL - 2023-03-05 07:57:27 --> Undefined index: HTTP_USER_AGENT
+#0 /home/darkesp1/public_html/mail.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 44, Array)
+#1 /home/darkesp1/public_html/app/Views/Auth/login.php(4): include('/home/darkesp1/...')
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/darkesp1/...')
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#5 /home/darkesp1/public_html/app/Controllers/Auth.php(54): view('Auth/login', Array)
+#6 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#7 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-05 19:51:13 --> Undefined index: HTTP_USER_AGENT
+#0 /home/darkesp1/public_html/mail.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 44, Array)
+#1 /home/darkesp1/public_html/app/Views/Auth/login.php(4): include('/home/darkesp1/...')
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/darkesp1/...')
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#5 /home/darkesp1/public_html/app/Controllers/Auth.php(54): view('Auth/login', Array)
+#6 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#7 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#10 {main}

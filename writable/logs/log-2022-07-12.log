@@ -1,0 +1,75 @@
+CRITICAL - 2022-07-12 15:33:07 --> Undefined variable: idKeys
+#0 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/Keys.php(457): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/linuxedu/...', 457, Array)
+#1 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/Keys.php(306): App\Controllers\Keys->generate_action()
+#2 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxedu/public_html/traineeweb.xyz/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-12 15:33:26 --> Undefined variable: idKeys
+#0 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/Keys.php(457): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/linuxedu/...', 457, Array)
+#1 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/Keys.php(306): App\Controllers\Keys->generate_action()
+#2 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxedu/public_html/traineeweb.xyz/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-12 18:01:03 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/linuxedu/...', 8, Array)
+#1 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/conn.php(8): mysqli_connect('localhost', 'linuxedu_lib', 'linuxedu_lib', 'linuxedu_lib')
+#2 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/Connect.php(13): include('/home/linuxedu/...')
+#3 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxedu/public_html/traineeweb.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-12 18:26:56 --> Undefined variable: idKeys
+#0 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/Keys.php(457): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/linuxedu/...', 457, Array)
+#1 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/Keys.php(306): App\Controllers\Keys->generate_action()
+#2 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxedu/public_html/traineeweb.xyz/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-12 18:56:04 --> Undefined variable: idKeys
+#0 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/Keys.php(457): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/linuxedu/...', 457, Array)
+#1 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/Keys.php(306): App\Controllers\Keys->generate_action()
+#2 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxedu/public_html/traineeweb.xyz/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-12 18:56:30 --> Undefined variable: idKeys
+#0 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/Keys.php(457): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/linuxedu/...', 457, Array)
+#1 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/Keys.php(306): App\Controllers\Keys->generate_action()
+#2 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxedu/public_html/traineeweb.xyz/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-12 18:56:46 --> Undefined variable: idKeys
+#0 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/Keys.php(457): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/linuxedu/...', 457, Array)
+#1 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/Keys.php(306): App\Controllers\Keys->generate_action()
+#2 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxedu/public_html/traineeweb.xyz/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-12 19:22:26 --> mysqli_connect(): (HY000/2002): Connection refused
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/linuxedu/...', 8, Array)
+#1 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/conn.php(8): mysqli_connect('localhost', 'linuxedu_lib', 'linuxedu_lib', 'linuxedu_lib')
+#2 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/Connect.php(13): include('/home/linuxedu/...')
+#3 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxedu/public_html/traineeweb.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-12 19:22:31 --> mysqli_connect(): (HY000/2002): Connection refused
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/linuxedu/...', 8, Array)
+#1 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/conn.php(8): mysqli_connect('localhost', 'linuxedu_lib', 'linuxedu_lib', 'linuxedu_lib')
+#2 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/Connect.php(13): include('/home/linuxedu/...')
+#3 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxedu/public_html/traineeweb.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

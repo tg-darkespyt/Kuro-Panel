@@ -1,0 +1,16 @@
+ERROR - 2022-07-08 12:40:41 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-07-08 12:40:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/Validation/Rules.php(116): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/Validation/Validation.php(277): CodeIgniter\Validation\Rules->is_not_unique('offensive', 'username', Array, NULL)
+#4 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules('username', 'username', 'offensive', Array, Array)
+#5 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/Auth.php(77): CodeIgniter\Controller->validate(Array)
+#7 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/Auth.php(31): App\Controllers\Auth->login_action()
+#8 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#9 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/linuxedu/public_html/traineeweb.xyz/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

@@ -1,0 +1,146 @@
+CRITICAL - 2022-12-29 01:20:02 --> Undefined variable: msg
+#0 /home/mrblacke/public_html/app/Controllers/Auth.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/mrblacke/...', 29, Array)
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-29 01:49:14 --> syntax error, unexpected '/'
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/mrblacke/...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Code...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Code...')
+#3 /home/mrblacke/public_html/app/Controllers/User.php(47): spl_autoload_call('App\\Models\\Code...')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->ref_index()
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-29 02:08:01 --> Call to undefined function App\Controllers\LPAD()
+#0 /home/mrblacke/public_html/app/Controllers/User.php(45): App\Controllers\User->reff_action()
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->ref_index()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-29 02:20:48 --> syntax error, unexpected ','
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/mrblacke/...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-29 02:24:43 --> Call to undefined function App\Controllers\LPAD()
+#0 /home/mrblacke/public_html/app/Controllers/User.php(45): App\Controllers\User->reff_action()
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->ref_index()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-29 02:33:00 --> syntax error, unexpected ';', expecting ']'
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/mrblacke/...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Code...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Code...')
+#3 /home/mrblacke/public_html/app/Controllers/Auth.php(136): spl_autoload_call('App\\Models\\Code...')
+#4 /home/mrblacke/public_html/app/Controllers/Auth.php(45): App\Controllers\Auth->register_action()
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->register()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-29 02:56:13 --> syntax error, unexpected ','
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/mrblacke/...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Code...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Code...')
+#3 /home/mrblacke/public_html/app/Controllers/Auth.php(136): spl_autoload_call('App\\Models\\Code...')
+#4 /home/mrblacke/public_html/app/Controllers/Auth.php(45): App\Controllers\Auth->register_action()
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->register()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-29 02:58:15 --> syntax error, unexpected ','
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/mrblacke/...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Code...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Code...')
+#3 /home/mrblacke/public_html/app/Controllers/Auth.php(136): spl_autoload_call('App\\Models\\Code...')
+#4 /home/mrblacke/public_html/app/Controllers/Auth.php(45): App\Controllers\Auth->register_action()
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->register()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-29 03:06:56 --> syntax error, unexpected ','
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/mrblacke/...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Code...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Code...')
+#3 /home/mrblacke/public_html/app/Controllers/Auth.php(136): spl_autoload_call('App\\Models\\Code...')
+#4 /home/mrblacke/public_html/app/Controllers/Auth.php(45): App\Controllers\Auth->register_action()
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->register()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-29 03:07:58 --> syntax error, unexpected ')'
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/mrblacke/...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Code...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Code...')
+#3 /home/mrblacke/public_html/app/Controllers/Auth.php(136): spl_autoload_call('App\\Models\\Code...')
+#4 /home/mrblacke/public_html/app/Controllers/Auth.php(45): App\Controllers\Auth->register_action()
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->register()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-29 03:09:32 --> Trying to access array offset on value of type null
+#0 /home/mrblacke/public_html/app/Models/CodeModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/mrblacke/...', 40, Array)
+#1 /home/mrblacke/public_html/app/Controllers/Auth.php(137): App\Models\CodeModel->checkCode('dwlaYu')
+#2 /home/mrblacke/public_html/app/Controllers/Auth.php(45): App\Controllers\Auth->register_action()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->register()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-29 03:13:39 --> Trying to get property 'code' of non-object
+#0 /home/mrblacke/public_html/app/Models/CodeModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/mrblacke/...', 40, Array)
+#1 /home/mrblacke/public_html/app/Controllers/Auth.php(137): App\Models\CodeModel->checkCode('dwlaYu')
+#2 /home/mrblacke/public_html/app/Controllers/Auth.php(45): App\Controllers\Auth->register_action()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->register()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-29 03:23:25 --> syntax error, unexpected ','
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/mrblacke/...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Code...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Code...')
+#3 /home/mrblacke/public_html/app/Controllers/Auth.php(136): spl_autoload_call('App\\Models\\Code...')
+#4 /home/mrblacke/public_html/app/Controllers/Auth.php(45): App\Controllers\Auth->register_action()
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->register()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-29 03:25:10 --> syntax error, unexpected ','
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/mrblacke/...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Code...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Code...')
+#3 /home/mrblacke/public_html/app/Controllers/Auth.php(136): spl_autoload_call('App\\Models\\Code...')
+#4 /home/mrblacke/public_html/app/Controllers/Auth.php(45): App\Controllers\Auth->register_action()
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->register()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-29 10:52:54 --> syntax error, unexpected '<', expecting end of file
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include()
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#3 /home/mrblacke/public_html/app/Controllers/Auth.php(36): view('Auth/login', Array)
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

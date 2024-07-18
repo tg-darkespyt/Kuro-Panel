@@ -1,0 +1,365 @@
+CRITICAL - 2022-06-03 00:15:43 --> Trying to access array offset on value of type null
+#0 /storage/ssd1/780/17265780/public_html/app/Views/Server/Server.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/storage/ssd1/7...')
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /storage/ssd1/780/17265780/public_html/app/Controllers/User.php(278): view()
+#5 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#6 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 00:15:54 --> Trying to access array offset on value of type null
+#0 /storage/ssd1/780/17265780/public_html/app/Views/Server/Server.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/storage/ssd1/7...')
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /storage/ssd1/780/17265780/public_html/app/Controllers/User.php(278): view()
+#5 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#6 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 00:16:06 --> Trying to access array offset on value of type null
+#0 /storage/ssd1/780/17265780/public_html/app/Views/Server/Server.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/storage/ssd1/7...')
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /storage/ssd1/780/17265780/public_html/app/Controllers/User.php(278): view()
+#5 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#6 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 00:18:36 --> Trying to access array offset on value of type null
+#0 /storage/ssd1/780/17265780/public_html/app/Views/Server/Server.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/storage/ssd1/7...')
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /storage/ssd1/780/17265780/public_html/app/Controllers/User.php(278): view()
+#5 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#6 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 00:19:52 --> Trying to access array offset on value of type null
+#0 /storage/ssd1/780/17265780/public_html/app/Views/Server/Server.php(91): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/storage/ssd1/7...')
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /storage/ssd1/780/17265780/public_html/app/Controllers/User.php(278): view()
+#5 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#6 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 00:40:45 --> Undefined index: _ftext
+#0 /storage/ssd1/780/17265780/public_html/app/Views/Server/Server.php(118): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/storage/ssd1/7...')
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /storage/ssd1/780/17265780/public_html/app/Controllers/User.php(278): view()
+#5 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#6 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 00:44:14 --> Undefined index: _ftext
+#0 /storage/ssd1/780/17265780/public_html/app/Views/Server/Server.php(123): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/storage/ssd1/7...')
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /storage/ssd1/780/17265780/public_html/app/Controllers/User.php(278): view()
+#5 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#6 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-03 01:23:46 --> Unknown column 'status' in 'field list'
+CRITICAL - 2022-06-03 01:23:46 --> Unknown column 'status' in 'field list'
+#0 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/BaseModel.php(865): CodeIgniter\Model->doUpdate()
+#6 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#7 /storage/ssd1/780/17265780/public_html/app/Controllers/User.php(314): CodeIgniter\Model->update()
+#8 /storage/ssd1/780/17265780/public_html/app/Controllers/User.php(260): App\Controllers\User->_ftext_act()
+#9 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#10 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-03 02:13:55 --> Unknown column 'status' in 'field list'
+CRITICAL - 2022-06-03 02:13:55 --> Unknown column 'status' in 'field list'
+#0 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/BaseModel.php(865): CodeIgniter\Model->doUpdate()
+#6 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update()
+#7 /storage/ssd1/780/17265780/public_html/app/Controllers/User.php(314): CodeIgniter\Model->update()
+#8 /storage/ssd1/780/17265780/public_html/app/Controllers/User.php(260): App\Controllers\User->_ftext_act()
+#9 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#10 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-06-03 16:09:52 --> shell_exec() has been disabled for security reasons
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/app/Views/User/dashboard.php(79): shell_exec()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/storage/ssd1/7...')
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#5 /storage/ssd1/780/17265780/public_html/app/Controllers/User.php(35): view()
+#6 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->index()
+#7 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-03 16:23:24 --> A non-numeric value encountered
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(319): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-03 16:24:31 --> A non-numeric value encountered
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(319): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-03 17:06:21 --> Undefined variable: license
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(332): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-03 17:32:23 --> Call to undefined function App\Controllers\xss_clean()
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 17:33:27 --> Call to undefined function App\Controllers\xss_clean()
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 17:49:26 --> Undefined variable: randomString
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(342): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-03 17:50:00 --> Call to undefined function App\Controllers\GenerateToken1()
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 17:51:36 --> Call to undefined function App\Controllers\GenerateToken1()
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 17:59:21 --> Undefined variable: randomString
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(347): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-03 18:00:56 --> Undefined variable: randomString
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(358): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-03 18:16:39 --> Undefined variable: characters
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(354): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-03 18:20:47 --> Undefined variable: characters
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(353): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-03 20:15:28 --> Undefined variable: characters
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(356): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-03 20:17:19 --> Duplicate entry 'Vishesh_' for key 'user_key'
+CRITICAL - 2022-06-03 20:17:19 --> Duplicate entry 'Vishesh_' for key 'user_key'
+#0 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(383): CodeIgniter\Model->insert()
+#8 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#9 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#10 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-03 20:18:06 --> Duplicate entry 'Vishesh_' for key 'user_key'
+CRITICAL - 2022-06-03 20:18:06 --> Duplicate entry 'Vishesh_' for key 'user_key'
+#0 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert()
+#7 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(383): CodeIgniter\Model->insert()
+#8 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#9 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#10 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#11 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#12 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-06-03 20:21:10 --> Undefined variable: license
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(373): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-03 20:22:02 --> Undefined variable: license1
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(364): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-03 21:27:20 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 85999616 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-03 21:31:18 --> A non-numeric value encountered
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(322): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-03 21:31:49 --> A non-numeric value encountered
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(322): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-03 21:33:31 --> A non-numeric value encountered
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(322): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-03 21:36:10 --> Undefined variable: charactersLength
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(313): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-03 21:38:09 --> Undefined variable: charactersLength
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(330): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-03 21:40:40 --> A non-numeric value encountered
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(332): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-03 21:41:15 --> A non-numeric value encountered
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(332): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-03 21:42:04 --> A non-numeric value encountered
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(332): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-03 21:42:24 --> rand() expects exactly 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(332): rand()
+#2 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-03 21:45:14 --> Argument 2 passed to random_string() must be of the type int, string given, called in /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php on line 327
+#0 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(327): random_string()
+#1 /storage/ssd1/780/17265780/public_html/app/Controllers/Keys.php(248): App\Controllers\Keys->generate_action()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-03 23:36:12 --> include(conn.php): failed to open stream: No such file or directory
+#0 /storage/ssd1/780/17265780/public_html/app/Views/New.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /storage/ssd1/780/17265780/public_html/app/Views/New.php(3): include()
+#2 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/storage/ssd1/7...')
+#3 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#5 /storage/ssd1/780/17265780/public_html/app/Controllers/Home.php(16): view()
+#6 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#7 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#8 /storage/ssd1/780/17265780/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /storage/ssd1/780/17265780/public_html/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

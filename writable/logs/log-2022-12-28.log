@@ -1,0 +1,767 @@
+CRITICAL - 2022-12-28 02:14:07 --> Trying to access array offset on value of type null
+#0 /home/mrblacke/public_html/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/mrblacke/...', 21, Array)
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-28 02:14:52 --> Trying to access array offset on value of type null
+#0 /home/mrblacke/public_html/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/mrblacke/...', 21, Array)
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-28 02:19:01 --> Undefined variable: idKeys
+#0 /home/mrblacke/public_html/app/Controllers/Keys.php(470): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/mrblacke/...', 470, Array)
+#1 /home/mrblacke/public_html/app/Controllers/Keys.php(306): App\Controllers\Keys->generate_action()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-28 02:19:43 --> Undefined variable: idKeys
+#0 /home/mrblacke/public_html/app/Controllers/Keys.php(470): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/mrblacke/...', 470, Array)
+#1 /home/mrblacke/public_html/app/Controllers/Keys.php(306): App\Controllers\Keys->generate_action()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-28 02:21:04 --> Undefined variable: idKeys
+#0 /home/mrblacke/public_html/app/Controllers/Keys.php(470): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/mrblacke/...', 470, Array)
+#1 /home/mrblacke/public_html/app/Controllers/Keys.php(306): App\Controllers\Keys->generate_action()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-28 02:28:54 --> Trying to access array offset on value of type null
+#0 /home/mrblacke/public_html/app/Controllers/Connect.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/mrblacke/...', 21, Array)
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-12-28 02:32:36 --> Undefined variable: idKeys
+#0 /home/mrblacke/public_html/app/Controllers/Keys.php(470): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/mrblacke/...', 470, Array)
+#1 /home/mrblacke/public_html/app/Controllers/Keys.php(306): App\Controllers\Keys->generate_action()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-28 02:32:42 --> Undefined variable: idKeys
+#0 /home/mrblacke/public_html/app/Controllers/Keys.php(470): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/mrblacke/...', 470, Array)
+#1 /home/mrblacke/public_html/app/Controllers/Keys.php(306): App\Controllers\Keys->generate_action()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-28 02:33:12 --> Undefined variable: idKeys
+#0 /home/mrblacke/public_html/app/Controllers/Keys.php(470): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/mrblacke/...', 470, Array)
+#1 /home/mrblacke/public_html/app/Controllers/Keys.php(306): App\Controllers\Keys->generate_action()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-28 02:33:55 --> Undefined variable: idKeys
+#0 /home/mrblacke/public_html/app/Controllers/Keys.php(470): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/mrblacke/...', 470, Array)
+#1 /home/mrblacke/public_html/app/Controllers/Keys.php(306): App\Controllers\Keys->generate_action()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-28 02:50:12 --> mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_fetch_as...', '/home/mrblacke/...', 36, Array)
+#1 /home/mrblacke/public_html/app/Views/Server/lib.php(36): mysqli_fetch_assoc(true)
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#5 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-28 03:01:08 --> mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_fetch_as...', '/home/mrblacke/...', 36, Array)
+#1 /home/mrblacke/public_html/app/Views/Server/lib.php(36): mysqli_fetch_assoc(true)
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#5 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-28 03:01:10 --> mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_fetch_as...', '/home/mrblacke/...', 36, Array)
+#1 /home/mrblacke/public_html/app/Views/Server/lib.php(36): mysqli_fetch_assoc(true)
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#5 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-28 03:03:09 --> mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_fetch_as...', '/home/mrblacke/...', 36, Array)
+#1 /home/mrblacke/public_html/app/Views/Server/lib.php(36): mysqli_fetch_assoc(true)
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#5 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-28 03:05:47 --> Unknown table 'id' in MULTI DELETE
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(35): mysqli_query(Object(mysqli), 'DELETE id FROM ...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 03:06:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* FROM lib WHERE id=1 
+ORDER BY id DESC 
+LIMIT 1' at line 1
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(35): mysqli_query(Object(mysqli), 'DELETE * FROM l...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 03:06:58 --> Unknown table 'id' in MULTI DELETE
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(35): mysqli_query(Object(mysqli), 'DELETE id FROM ...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 03:09:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'MAX(id) FROM lib' at line 1
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(33): mysqli_query(Object(mysqli), 'DELETE MAX(id) ...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 03:10:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'MAX(`id`) FROM `lib`' at line 1
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(33): mysqli_query(Object(mysqli), 'DELETE MAX(`id`...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 03:11:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by id desc limit 1' at line 2
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(34): mysqli_query(Object(mysqli), 'delete lib\norde...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 03:12:42 --> Unknown table 'id' in MULTI DELETE
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(34): mysqli_query(Object(mysqli), 'DELETE id FROM ...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 03:13:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'MAX(`id`) FROM lib
+order by id desc limit 1' at line 1
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(34): mysqli_query(Object(mysqli), 'DELETE MAX(`id`...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 03:15:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id=1
+order by id desc limit 1' at line 1
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(34): mysqli_query(Object(mysqli), 'DELETE lib WHER...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 03:16:37 --> Unknown table 'id' in MULTI DELETE
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(35): mysqli_query(Object(mysqli), 'DELETE id FROM ...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 03:17:29 --> mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_fetch_as...', '/home/mrblacke/...', 36, Array)
+#1 /home/mrblacke/public_html/app/Views/Server/lib.php(36): mysqli_fetch_assoc(true)
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#5 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-28 03:18:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id
+ORDER BY id DESC
+LIMIT 1' at line 1
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(35): mysqli_query(Object(mysqli), 'DELETE lib WHER...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 03:18:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '=1 FROM lib
+ORDER BY id DESC
+LIMIT 1' at line 1
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(35): mysqli_query(Object(mysqli), 'DELETE id=1 FRO...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 03:22:40 --> Table 'lib' is specified twice, both as a target for 'DELETE' and as a separate source for data
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(35): mysqli_query(Object(mysqli), 'DELETE FROM lib...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 03:22:43 --> Table 'lib' is specified twice, both as a target for 'DELETE' and as a separate source for data
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(35): mysqli_query(Object(mysqli), 'DELETE FROM lib...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 03:24:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT Max(id) FROM lib' at line 2
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(35): mysqli_query(Object(mysqli), 'DELETE FROM lib...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 03:25:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT id FROM lib
+ORDER BY id DESC
+LIMIT 1' at line 2
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(37): mysqli_query(Object(mysqli), 'DELETE FROM lib...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 03:30:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT id FROM lib
+ORDER BY file_size DESC
+LIMIT 1' at line 1
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(36): mysqli_query(Object(mysqli), 'DELETE FROM lib...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 03:32:53 --> Trying to access array offset on value of type null
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/mrblacke/...', 85, Array)
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 03:34:46 --> Trying to access array offset on value of type null
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/mrblacke/...', 85, Array)
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 03:35:18 --> Trying to access array offset on value of type null
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/mrblacke/...', 85, Array)
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 03:36:49 --> Undefined variable: delLib
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/mrblacke/...', 99, Array)
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 03:44:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT id FROM lib
+ORDER BY id DESC
+LIMIT 1' at line 1
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(39): mysqli_query(Object(mysqli), 'DELETE FROM lib...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 03:47:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT id FROM lib
+ORDER BY id DESC
+LIMIT 1' at line 1
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(39): mysqli_query(Object(mysqli), 'DELETE FROM lib...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 03:48:20 --> Array to string conversion
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/mrblacke/...', 38, Array)
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 03:49:13 --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#2 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-28 03:51:00 --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#2 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-28 03:51:48 --> syntax error, unexpected ';'
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#2 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-28 03:52:28 --> Undefined variable: libDel
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/mrblacke/...', 37, Array)
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 03:53:21 --> mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_fetch_as...', '/home/mrblacke/...', 40, Array)
+#1 /home/mrblacke/public_html/app/Views/Server/lib.php(40): mysqli_fetch_assoc(true)
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#5 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-28 03:53:55 --> syntax error, unexpected ';'
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#2 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-28 03:54:31 --> Array to string conversion
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/mrblacke/...', 38, Array)
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 03:55:39 --> Undefined variable: x
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/mrblacke/...', 38, Array)
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 03:56:10 --> mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_fetch_as...', '/home/mrblacke/...', 40, Array)
+#1 /home/mrblacke/public_html/app/Views/Server/lib.php(40): mysqli_fetch_assoc(true)
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#5 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-28 03:57:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* FROM lib WHERE id=4' at line 1
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(39): mysqli_query(Object(mysqli), 'DELETE * FROM l...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 03:57:52 --> Undefined variable: x
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/mrblacke/...', 38, Array)
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 03:58:27 --> Array to string conversion
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/mrblacke/...', 38, Array)
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 03:59:54 --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#2 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-28 04:03:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* FROM lib ORDER BY id DESC LIMIT 1' at line 1
+#0 /home/mrblacke/public_html/app/Views/Server/lib.php(39): mysqli_query(Object(mysqli), 'DELETE * FROM l...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 04:12:30 --> mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_fetch_as...', '/home/mrblacke/...', 40, Array)
+#1 /home/mrblacke/public_html/app/Views/Server/lib.php(40): mysqli_fetch_assoc(true)
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/lib', Array, true)
+#5 /home/mrblacke/public_html/app/Controllers/User.php(284): view('Server/lib', Array)
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->lib()
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-28 05:20:50 --> syntax error, unexpected ','
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(432): CodeIgniter\View\View->render('Layout/Header', NULL, true)
+#2 /home/mrblacke/public_html/app/Views/Layout/Starter.php(28): CodeIgniter\View\View->include('Layout/Header')
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(230): CodeIgniter\View\View->render('Layout/Starter', Array, true)
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Admin/users', Array, true)
+#7 /home/mrblacke/public_html/app/Controllers/User.php(127): view('Admin/users', Array)
+#8 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->manage_users()
+#9 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-28 06:03:30 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/mrblacke/...')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-28 08:05:33 --> Undefined variable: idKeys
+#0 /home/mrblacke/public_html/app/Controllers/Keys.php(470): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/mrblacke/...', 470, Array)
+#1 /home/mrblacke/public_html/app/Controllers/Keys.php(306): App\Controllers\Keys->generate_action()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-28 19:17:04 --> syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$'
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#2 /home/mrblacke/public_html/app/Controllers/Auth.php(37): view('Auth/login', Array)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-28 19:17:43 --> syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$'
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#2 /home/mrblacke/public_html/app/Controllers/Auth.php(37): view('Auth/login', Array)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-28 19:18:24 --> syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$'
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#2 /home/mrblacke/public_html/app/Controllers/Auth.php(37): view('Auth/login', Array)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-28 17:54:01 --> Undefined index: mail
+#0 /home/mrblacke/public_html/app/Views/Auth/login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/mrblacke/...', 21, Array)
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/Auth.php(37): view('Auth/login', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 18:02:03 --> Undefined index: mail
+#0 /home/mrblacke/public_html/app/Views/Auth/login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/mrblacke/...', 21, Array)
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/Auth.php(37): view('Auth/login', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 18:02:27 --> Undefined index: email
+#0 /home/mrblacke/public_html/app/Views/Auth/login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/mrblacke/...', 21, Array)
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/Auth.php(37): view('Auth/login', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 18:06:57 --> Undefined index: email
+#0 /home/mrblacke/public_html/app/Views/Auth/login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/mrblacke/...', 21, Array)
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/Auth.php(37): view('Auth/login', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 19:44:24 --> syntax error, unexpected 'mail' (T_STRING)
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#2 /home/mrblacke/public_html/app/Controllers/Auth.php(37): view('Auth/login', Array)
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-28 20:08:11 --> include(mail.php): failed to open stream: No such file or directory
+#0 /home/mrblacke/public_html/app/Views/Auth/login.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(mail.ph...', '/home/mrblacke/...', 4, Array)
+#1 /home/mrblacke/public_html/app/Views/Auth/login.php(4): include()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#5 /home/mrblacke/public_html/app/Controllers/Auth.php(37): view('Auth/login', Array)
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-28 18:55:45 --> Undefined variable: ipaddress
+#0 /home/mrblacke/public_html/mail.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/mrblacke/...', 29, Array)
+#1 /home/mrblacke/public_html/app/Views/Auth/login.php(4): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#5 /home/mrblacke/public_html/app/Controllers/Auth.php(37): view('Auth/login', Array)
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-28 18:55:48 --> Undefined variable: ipaddress
+#0 /home/mrblacke/public_html/mail.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/mrblacke/...', 29, Array)
+#1 /home/mrblacke/public_html/app/Views/Auth/login.php(4): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#5 /home/mrblacke/public_html/app/Controllers/Auth.php(37): view('Auth/login', Array)
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-28 18:58:18 --> Undefined variable: ipaddress
+#0 /home/mrblacke/public_html/app/Views/Auth/login.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/mrblacke/...', 48, Array)
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/Auth.php(37): view('Auth/login', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 18:59:41 --> Undefined variable: ipaddress
+#0 /home/mrblacke/public_html/app/Views/Auth/login.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/mrblacke/...', 48, Array)
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/Auth.php(37): view('Auth/login', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 19:00:46 --> Undefined variable: ipaddress
+#0 /home/mrblacke/public_html/app/Views/Auth/login.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/mrblacke/...', 48, Array)
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/Auth.php(37): view('Auth/login', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 19:05:14 --> Undefined variable: ipaddress
+#0 /home/mrblacke/public_html/app/Views/Auth/register.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/mrblacke/...', 61, Array)
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/register', Array, true)
+#4 /home/mrblacke/public_html/app/Controllers/Auth.php(51): view('Auth/register', Array)
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->register()
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

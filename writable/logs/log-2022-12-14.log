@@ -1,0 +1,52 @@
+CRITICAL - 2022-12-14 05:15:30 --> Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.
+#0 /home/darkesp1/dark-esp-yt.tk/app/Config/Events.php(30): CodeIgniter\Exceptions\FrameworkException::forEnabledZlibOutputCompression()
+#1 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#2 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#3 /home/darkesp1/dark-esp-yt.tk/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-14 05:15:36 --> Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.
+#0 /home/darkesp1/dark-esp-yt.tk/app/Config/Events.php(30): CodeIgniter\Exceptions\FrameworkException::forEnabledZlibOutputCompression()
+#1 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#2 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#3 /home/darkesp1/dark-esp-yt.tk/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-14 05:26:54 --> syntax error, unexpected 'file' (T_STRING), expecting ')'
+#0 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/Server', Array, true)
+#2 /home/darkesp1/dark-esp-yt.tk/app/Controllers/User.php(312): view('Server/Server', Array)
+#3 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#4 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/darkesp1/dark-esp-yt.tk/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-14 05:27:55 --> syntax error, unexpected '?'
+#0 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/Server', Array, true)
+#2 /home/darkesp1/dark-esp-yt.tk/app/Controllers/User.php(312): view('Server/Server', Array)
+#3 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#4 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/darkesp1/dark-esp-yt.tk/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-12-14 05:42:36 --> Call to undefined function mysql_query()
+#0 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/View/View.php(214): include()
+#1 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/Server', Array, true)
+#3 /home/darkesp1/dark-esp-yt.tk/app/Controllers/User.php(312): view('Server/Server', Array)
+#4 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#5 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/darkesp1/dark-esp-yt.tk/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-14 05:43:34 --> mysqli_query() expects parameter 1 to be mysqli, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_query() ...', '/home/darkesp1/...', 34, Array)
+#1 /home/darkesp1/dark-esp-yt.tk/app/Views/Server/Server.php(34): mysqli_query('SELECT file_siz...', Object(mysqli))
+#2 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/darkesp1/...')
+#3 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/Server', Array, true)
+#5 /home/darkesp1/dark-esp-yt.tk/app/Controllers/User.php(312): view('Server/Server', Array)
+#6 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#7 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/darkesp1/dark-esp-yt.tk/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

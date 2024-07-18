@@ -1,0 +1,8 @@
+CRITICAL - 2023-03-01 14:22:25 --> Undefined variable: expired
+#0 /home/darkesp1/public_html/app/Controllers/Connect.php(589): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/darkesp1/...', 589, Array)
+#1 /home/darkesp1/public_html/app/Controllers/Connect.php(78): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}

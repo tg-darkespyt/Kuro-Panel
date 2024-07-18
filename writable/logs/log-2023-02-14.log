@@ -1,0 +1,19 @@
+CRITICAL - 2023-02-14 19:04:51 --> Table 'darkesp1_db.Features' doesn't exist
+#0 /home/darkesp1/public_html/app/Views/Server/Server.php(17): mysqli_query(Object(mysqli), 'SELECT esp FROM...')
+#1 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/darkesp1/...')
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/Server', Array, true)
+#4 /home/darkesp1/public_html/app/Controllers/User.php(384): view('Server/Server', Array)
+#5 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#6 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-14 23:48:51 --> Undefined variable: idKeys
+#0 /home/darkesp1/public_html/app/Controllers/Keys.php(470): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/darkesp1/...', 470, Array)
+#1 /home/darkesp1/public_html/app/Controllers/Keys.php(306): App\Controllers\Keys->generate_action()
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}

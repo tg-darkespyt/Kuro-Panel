@@ -1,0 +1,22 @@
+CRITICAL - 2022-07-02 01:11:00 --> Undefined variable: idKeys
+#0 /home/linuxedu/public_html/offvep.tk/app/Controllers/Keys.php(499): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/linuxedu/...', 499, Array)
+#1 /home/linuxedu/public_html/offvep.tk/app/Controllers/Keys.php(312): App\Controllers\Keys->generate_action()
+#2 /home/linuxedu/public_html/offvep.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/linuxedu/public_html/offvep.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/linuxedu/public_html/offvep.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxedu/public_html/offvep.tk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-07-02 18:05:02 --> Error connecting to the database: Too many connections
+CRITICAL - 2022-07-02 18:05:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /home/linuxedu/public_html/offvep.tk/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/linuxedu/public_html/offvep.tk/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/linuxedu/public_html/offvep.tk/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/linuxedu/public_html/offvep.tk/app/Models/UserModel.php(29): CodeIgniter\Model->__call('get', Array)
+#4 /home/linuxedu/public_html/offvep.tk/app/Models/UserModel.php(70): App\Models\UserModel->getUser('1')
+#5 /home/linuxedu/public_html/offvep.tk/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#6 /home/linuxedu/public_html/offvep.tk/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#7 /home/linuxedu/public_html/offvep.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('keys/generate', 'before')
+#8 /home/linuxedu/public_html/offvep.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/linuxedu/public_html/offvep.tk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

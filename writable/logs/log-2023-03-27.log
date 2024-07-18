@@ -1,0 +1,8 @@
+CRITICAL - 2023-03-27 00:29:41 --> Undefined index: Aimbot
+#0 /home/darkesp1/public_html/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/public_html/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}

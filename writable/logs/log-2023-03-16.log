@@ -1,0 +1,648 @@
+CRITICAL - 2023-03-16 23:15:16 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:15:19 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:15:35 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:15:39 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:15:41 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:15:50 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:15:55 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:15:57 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:09 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:12 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:14 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:16 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:18 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:20 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:21 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:22 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:24 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:25 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:26 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:27 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:29 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:30 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:31 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:33 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:34 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:35 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:36 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:37 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:38 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:40 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:41 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:42 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:44 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:45 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:47 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:49 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:50 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:51 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:52 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:54 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:55 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:56 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:16:57 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:20:38 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:20:40 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:20:41 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:20:42 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:20:43 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:20:58 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:00 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:01 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:02 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:03 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:05 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:06 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:08 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:09 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:10 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:11 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:13 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:14 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:15 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:16 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:17 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:19 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:20 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:21 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:22 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:23 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:24 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:26 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:27 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:28 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:29 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:31 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:32 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:34 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:35 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:36 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:37 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-16 23:21:39 --> Undefined index: Aimbot
+#0 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(595): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 595, Array)
+#1 /home/darkesp1/api.darkespyt.in/app/Controllers/Connect.php(34): App\Controllers\Connect->index_post()
+#2 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/darkesp1/api.darkespyt.in/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/api.darkespyt.in/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}

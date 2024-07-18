@@ -1,0 +1,9 @@
+CRITICAL - 2023-01-22 12:37:26 --> There is no data to update.
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update(NULL, Array)
+#2 /home/mrblacke/public_html/app/Controllers/Keys.php(167): CodeIgniter\Model->update()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->api_key_reset()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

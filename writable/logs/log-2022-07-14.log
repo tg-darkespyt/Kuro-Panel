@@ -1,0 +1,54 @@
+CRITICAL - 2022-07-14 18:06:41 --> Too many connections
+#0 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/conn.php(8): mysqli_connect('localhost', 'linuxedu_lib', 'linuxedu_lib', 'linuxedu_lib')
+#1 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/Connect.php(237): include('/home/linuxedu/...')
+#2 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#3 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#4 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#5 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxedu/public_html/traineeweb.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-14 18:06:44 --> Too many connections
+#0 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/conn.php(8): mysqli_connect('localhost', 'linuxedu_lib', 'linuxedu_lib', 'linuxedu_lib')
+#1 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/Connect.php(237): include('/home/linuxedu/...')
+#2 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#3 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#4 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#5 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxedu/public_html/traineeweb.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-14 18:09:37 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/linuxedu/...', 8, Array)
+#1 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/conn.php(8): mysqli_connect('localhost', 'linuxedu_lib', 'linuxedu_lib', 'linuxedu_lib')
+#2 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/Connect.php(13): include('/home/linuxedu/...')
+#3 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxedu/public_html/traineeweb.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-14 18:09:40 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/linuxedu/...', 8, Array)
+#1 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/conn.php(8): mysqli_connect('localhost', 'linuxedu_lib', 'linuxedu_lib', 'linuxedu_lib')
+#2 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/Connect.php(13): include('/home/linuxedu/...')
+#3 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxedu/public_html/traineeweb.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-14 18:09:51 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/linuxedu/...', 8, Array)
+#1 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/conn.php(8): mysqli_connect('localhost', 'linuxedu_lib', 'linuxedu_lib', 'linuxedu_lib')
+#2 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/Connect.php(13): include('/home/linuxedu/...')
+#3 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxedu/public_html/traineeweb.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-14 18:10:08 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/linuxedu/...', 8, Array)
+#1 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/conn.php(8): mysqli_connect('localhost', 'linuxedu_lib', 'linuxedu_lib', 'linuxedu_lib')
+#2 /home/linuxedu/public_html/traineeweb.xyz/app/Controllers/Connect.php(13): include('/home/linuxedu/...')
+#3 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/linuxedu/public_html/traineeweb.xyz/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxedu/public_html/traineeweb.xyz/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

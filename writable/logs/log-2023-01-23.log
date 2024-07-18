@@ -1,0 +1,35 @@
+CRITICAL - 2023-01-23 08:59:52 --> There is no data to update.
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update(NULL, Array)
+#2 /home/mrblacke/public_html/app/Controllers/Keys.php(167): CodeIgniter\Model->update()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->api_key_reset()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-23 12:31:33 --> There is no data to update.
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update(NULL, Array)
+#2 /home/mrblacke/public_html/app/Controllers/Keys.php(167): CodeIgniter\Model->update()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->api_key_reset()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-23 15:50:25 --> There is no data to update.
+#0 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update(NULL, Array)
+#2 /home/mrblacke/public_html/app/Controllers/Keys.php(167): CodeIgniter\Model->update()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->api_key_reset()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#5 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-23 20:02:50 --> Undefined variable: idKeys
+#0 /home/mrblacke/public_html/app/Controllers/Keys.php(563): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/mrblacke/...', 563, Array)
+#1 /home/mrblacke/public_html/app/Controllers/Keys.php(399): App\Controllers\Keys->generate_action()
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

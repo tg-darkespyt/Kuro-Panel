@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body{
+	overflow: hidden;
+}
+section{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+	background: #f1f1f1;
+}
+.box{
+	padding: 150px 0;
+}
+section i{
+	position: absolute;
+	background: #ff2a2a;
+	border-radius: 100%;
+	animation: animate linear infinite;
+
+}
+section i:nth-child(even){
+	background: transparent;
+	border: 1px solid #ff2a2a;
+}
+@keyframes animate{
+	0%{
+		transform: translateY(0);
+		opacity: 0;
+	}
+	10%{
+		opacity: 1;
+	}
+	90%{
+		opacity: 1;
+	}
+	100%{
+		transform: translateY(-2000%);
+		opacity: 0;
+	}
+}
+.anime{
+	text-transform: uppercase;
+	background-image: linear-gradient(
+		-225deg,
+		#231557 0%,
+		#44107a 29%,
+		#ff1361 67%,
+		#fff800 100%
+	);
+	background-size: auto auto;
+	background-clip: border-box;
+	background-size: 200% auto;
+	color: transparent;
+	background-clip: text;
+	text-fill-colour: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill- color: transparent;
+	animation: textclip 2s linear infinite;
+	display: inline-block;
+	font-size: 70px;
+}
+@keyframes textclip{
+	to{
+		background-position: 200% center;
+	}
+}
+.circule{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.circule a{
+	position: relative;
+	font-family: 'Roboto';
+	display: inline-block;
+	padding: 10px 20px;
+	color: #ff0000;
+	font-size: 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	transition: .5s;
+	margin-top: 40px;
+	letter-spacing: 4px;
+	border: 2px solid #ff0000;
+	border-radius: 30px;
+	transition: .4s;
+	font: bold;
+}
+.circule a:hover{
+	background: #ff0000;
+	color: #fff;
+	border-radius: 30px;
+	box-shadow: 0 0 5px #ff0000,
+	            0 0 25px #ff0000,
+	            0 0 50px #ff0000,
+	            0 0 100px #ff0000;
+}
+.typing1{
+	width: 36vh;
+	padding: 15px 20px;
+	animation: typing 3s steps(40), blink .5s step-end infinite alternate;
+	white-space: nowrap;
+	display: flex;
+	overflow: hidden;
+	border-radius: 3px solid;
+	font-family: monospace;
+	font-size: 17px;
+}
+@keyframes typing {
+	from{
+		width: 0;
+	}
+}
+@keyframes blink{
+	50%{
+		border-color: transparent;
+	}
+}
+main{
+	font-family: 'Roboto';
+	padding: 50px;
+}
+.content p{
+	text-shadow: 0 0 7px rgba(255, 255, 255, .3), 0 0 3px rgba(255, 255, 255, .3);
+    background: black;
+}
+.content{
+	color: #e5e5e5;
+	font-size: 2.26rem;
+	text-transform: uppercase;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.anime1{
+	height: 50px;
+	overflow: hidden;
+	margin-left: 1rem;
+}
+.anime1 > div > div{
+	padding: 0.25rem 0.75rem;
+	height: 2.81rem;
+	margin-bottom: 2.81rem;
+	display: inline-block;
+}
+.anime1 div:first-child{
+	animation: text-animation 8s infinite;
+}
+.a div {
+	background-color: #20a7d8;
+}
+.b div{
+	background-color: #cd921e;
+}
+.c div{
+	background-color: #c10528;
+}
+@keyframes text-animation{
+	0%{margin-top: 0;}
+	10%{margin-top: 0;}
+	20%{margin-top: -4.92rem;}
+	30%{margin-top: -4.92rem;}
+	40%{margin-top: -10.34rem;}
+	50%{margin-top: -10.34rem;}
+	60%{margin-top: -4.92rem;}
+	70%{margin-top: -4.92rem;}
+	80%{margin-top: 0;}
+	90%{margin-top: 0;}
+	100%{margin-top: 0;}
+
+}

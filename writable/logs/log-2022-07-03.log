@@ -1,0 +1,9 @@
+CRITICAL - 2022-07-03 22:12:34 --> mysqli_connect(): (HY000/1040): Too many connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', '/home/linuxedu/...', 8, Array)
+#1 /home/linuxedu/public_html/offvep.tk/app/Controllers/conn.php(8): mysqli_connect('localhost', 'linuxedu_old', 'linuxedu_old', 'linuxedu_old')
+#2 /home/linuxedu/public_html/offvep.tk/app/Controllers/Connect.php(13): include('/home/linuxedu/...')
+#3 /home/linuxedu/public_html/offvep.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(801): App\Controllers\Connect->__construct()
+#4 /home/linuxedu/public_html/offvep.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /home/linuxedu/public_html/offvep.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/linuxedu/public_html/offvep.tk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

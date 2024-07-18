@@ -1,0 +1,435 @@
+CRITICAL - 2022-06-21 11:36:03 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Views/Server/Server.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 97, Array)
+#1 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/offveptk/...')
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/Server', Array, true)
+#4 /home/offveptk/public_html/online/app/Controllers/User.php(295): view('Server/Server', Array)
+#5 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#6 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-21 14:30:42 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:30:43 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:30:44 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:30:44 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:30:45 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:30:46 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:30:47 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:30:48 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:30:50 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:30:51 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:30:52 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:30:54 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:30:54 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:30:55 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:30:56 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:30:57 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:40:01 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:40:02 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:40:02 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:40:04 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:40:05 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:40:06 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:40:06 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:40:07 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:40:08 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:43:17 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:43:18 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:43:19 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:43:20 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:43:20 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:43:21 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:43:22 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:43:24 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:43:25 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:43:28 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:43:29 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:43:29 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:43:30 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:43:31 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:43:32 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:43:33 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:43:35 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:43:36 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:43:37 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:43:38 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:43:38 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:43:39 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:43:40 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:43:41 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:43:42 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:43:42 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:43:43 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-21 14:43:44 --> Trying to access array offset on value of type null
+#0 /home/offveptk/public_html/online/app/Controllers/Connect.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/offveptk/...', 261, Array)
+#1 /home/offveptk/public_html/online/app/Controllers/Connect.php(39): App\Controllers\Connect->index_post()
+#2 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Connect->index()
+#3 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Connect))
+#4 /home/offveptk/public_html/online/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/offveptk/public_html/online/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

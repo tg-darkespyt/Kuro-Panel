@@ -1,0 +1,22 @@
+CRITICAL - 2022-12-20 02:32:57 --> Undefined index: HTTP_USER_AGENT
+#0 /home/darkesp1/dark-esp-yt.tk/app/Views/Auth/login.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 46, Array)
+#1 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/darkesp1/...')
+#2 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#4 /home/darkesp1/dark-esp-yt.tk/app/Controllers/Auth.php(37): view('Auth/login', Array)
+#5 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#6 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/darkesp1/dark-esp-yt.tk/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-20 02:32:58 --> Undefined index: HTTP_USER_AGENT
+#0 /home/darkesp1/dark-esp-yt.tk/app/Views/Auth/login.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 46, Array)
+#1 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/darkesp1/...')
+#2 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#4 /home/darkesp1/dark-esp-yt.tk/app/Controllers/Auth.php(37): view('Auth/login', Array)
+#5 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#6 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/darkesp1/dark-esp-yt.tk/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/darkesp1/dark-esp-yt.tk/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

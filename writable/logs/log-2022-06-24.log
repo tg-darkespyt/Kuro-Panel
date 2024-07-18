@@ -1,0 +1,309 @@
+CRITICAL - 2022-06-24 00:07:26 --> Trying to get property 'level' of non-object
+#0 /home/linuxedu/public_html/FallenXonline/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/linuxedu/...', 71, Array)
+#1 /home/linuxedu/public_html/FallenXonline/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-24 00:07:28 --> Trying to get property 'level' of non-object
+#0 /home/linuxedu/public_html/FallenXonline/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/linuxedu/...', 71, Array)
+#1 /home/linuxedu/public_html/FallenXonline/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-24 14:48:46 --> Undefined variable: 6
+#0 /home/linuxedu/public_html/FallenXonline/app/Controllers/Keys.php(389): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/linuxedu/...', 389, Array)
+#1 /home/linuxedu/public_html/FallenXonline/app/Controllers/Keys.php(260): App\Controllers\Keys->generate_action()
+#2 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-24 14:49:53 --> Duplicate entry 'fwvXmk7zpeHR0LQgVxcB' for key 'user_key'
+CRITICAL - 2022-06-24 14:49:53 --> Duplicate entry 'fwvXmk7zpeHR0LQgVxcB' for key 'user_key'
+#0 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `ke...', 0)
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/linuxedu/public_html/FallenXonline/app/Controllers/Keys.php(390): CodeIgniter\Model->insert(Array)
+#8 /home/linuxedu/public_html/FallenXonline/app/Controllers/Keys.php(260): App\Controllers\Keys->generate_action()
+#9 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#10 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#11 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-06-24 15:38:29 --> syntax error, unexpected '{', expecting '('
+#0 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/linuxedu/...')
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-24 15:43:16 --> syntax error, unexpected '}'
+#0 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/linuxedu/...')
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-24 15:44:20 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/linuxedu/...')
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-24 15:45:07 --> Undefined index: user_key
+#0 /home/linuxedu/public_html/FallenXonline/app/Controllers/Keys.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/linuxedu/...', 76, Array)
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->download_Keys()
+#2 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-24 16:19:26 --> syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/linuxedu/...')
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-24 16:19:47 --> syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/linuxedu/...')
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-24 16:20:10 --> Use of undefined constant length - assumed 'length' (this will throw an Error in a future version of PHP)
+#0 /home/linuxedu/public_html/FallenXonline/app/Controllers/Keys.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home/linuxedu/...', 77, Array)
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->download_Keys()
+#2 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-24 16:21:12 --> A non-numeric value encountered
+#0 /home/linuxedu/public_html/FallenXonline/app/Controllers/Keys.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/linuxedu/...', 78, Array)
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->download_Keys()
+#2 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-24 17:16:36 --> Trying to get property 'level' of non-object
+#0 /home/linuxedu/public_html/FallenXonline/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/linuxedu/...', 71, Array)
+#1 /home/linuxedu/public_html/FallenXonline/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-24 17:16:39 --> Trying to get property 'level' of non-object
+#0 /home/linuxedu/public_html/FallenXonline/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/linuxedu/...', 71, Array)
+#1 /home/linuxedu/public_html/FallenXonline/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-24 17:17:30 --> Trying to get property 'level' of non-object
+#0 /home/linuxedu/public_html/FallenXonline/app/Models/UserModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/linuxedu/...', 71, Array)
+#1 /home/linuxedu/public_html/FallenXonline/app/Filters/AuthFilter.php(19): App\Models\UserModel->checkAuthFilter()
+#2 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-24 17:33:39 --> unlink(/home/linuxedu/public_html/FallenXonline/writable/session/ci_session12aed95d7f3f8853e24a653dc07ca966055b29f2): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/li...', '/home/linuxedu/...', 300, Array)
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Session/Handlers/FileHandler.php(300): unlink('/home/linuxedu/...')
+#2 [internal function]: CodeIgniter\Session\Handlers\FileHandler->gc(86400)
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Session/Session.php(894): session_start()
+#4 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Session/Session.php(238): CodeIgniter\Session\Session->startSession()
+#5 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Config/Services.php(577): CodeIgniter\Session\Session->start()
+#6 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#7 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Config/Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#9 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::session()
+#10 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Common.php(909): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#11 /home/linuxedu/public_html/FallenXonline/app/Controllers/Auth.php(27): session()
+#12 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#13 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#14 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2022-06-24 17:33:39 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Debug/Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-24 17:33:51 --> unlink(/home/linuxedu/public_html/FallenXonline/writable/session/ci_session90184d471a313e040eb0932cba49b630bc0c9789): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/li...', '/home/linuxedu/...', 300, Array)
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Session/Handlers/FileHandler.php(300): unlink('/home/linuxedu/...')
+#2 [internal function]: CodeIgniter\Session\Handlers\FileHandler->gc(86400)
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Session/Session.php(894): session_start()
+#4 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Session/Session.php(238): CodeIgniter\Session\Session->startSession()
+#5 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Config/Services.php(577): CodeIgniter\Session\Session->start()
+#6 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#7 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Config/Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#9 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::session()
+#10 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Common.php(909): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#11 /home/linuxedu/public_html/FallenXonline/app/Controllers/Auth.php(27): session()
+#12 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#13 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#14 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2022-06-24 17:33:51 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Debug/Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-24 17:36:10 --> unlink(/home/linuxedu/public_html/FallenXonline/writable/session/ci_session3fb03e988a8c40d7a0fcee061c34563ade18bac1): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/li...', '/home/linuxedu/...', 300, Array)
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Session/Handlers/FileHandler.php(300): unlink('/home/linuxedu/...')
+#2 [internal function]: CodeIgniter\Session\Handlers\FileHandler->gc(86400)
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Session/Session.php(894): session_start()
+#4 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Session/Session.php(238): CodeIgniter\Session\Session->startSession()
+#5 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Config/Services.php(577): CodeIgniter\Session\Session->start()
+#6 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#7 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Config/Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#9 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::session()
+#10 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Common.php(909): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#11 /home/linuxedu/public_html/FallenXonline/app/Controllers/Auth.php(27): session()
+#12 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#13 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#14 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2022-06-24 17:36:55 --> unlink(/home/linuxedu/public_html/FallenXonline/writable/session/ci_sessiond99c2f8e8246916a0681eb17929c5fbce3b26eaf): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/li...', '/home/linuxedu/...', 300, Array)
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Session/Handlers/FileHandler.php(300): unlink('/home/linuxedu/...')
+#2 [internal function]: CodeIgniter\Session\Handlers\FileHandler->gc(86400)
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Session/Session.php(894): session_start()
+#4 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Session/Session.php(238): CodeIgniter\Session\Session->startSession()
+#5 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Config/Services.php(577): CodeIgniter\Session\Session->start()
+#6 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#7 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Config/Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#9 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::session()
+#10 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Common.php(909): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#11 /home/linuxedu/public_html/FallenXonline/app/Controllers/Auth.php(27): session()
+#12 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#13 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#14 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2022-06-24 17:36:55 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Debug/Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-24 17:37:37 --> unlink(/home/linuxedu/public_html/FallenXonline/writable/session/ci_session3f9d7a97e74077950b453b544b4d7881249777d0): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/li...', '/home/linuxedu/...', 300, Array)
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Session/Handlers/FileHandler.php(300): unlink('/home/linuxedu/...')
+#2 [internal function]: CodeIgniter\Session\Handlers\FileHandler->gc(86400)
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Session/Session.php(894): session_start()
+#4 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Session/Session.php(238): CodeIgniter\Session\Session->startSession()
+#5 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Config/Services.php(577): CodeIgniter\Session\Session->start()
+#6 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#7 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Config/Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#9 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::session()
+#10 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Common.php(909): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#11 /home/linuxedu/public_html/FallenXonline/app/Controllers/Auth.php(27): session()
+#12 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#13 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#14 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2022-06-24 17:37:37 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:41
+Stack trace:
+#0 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/API/ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Debug/Exceptions.php(110): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-24 17:37:49 --> unlink(/home/linuxedu/public_html/FallenXonline/writable/session/ci_session345676d6895db11e9dc4f04aa3c0b27f8b4e51d8): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/li...', '/home/linuxedu/...', 300, Array)
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Session/Handlers/FileHandler.php(300): unlink('/home/linuxedu/...')
+#2 [internal function]: CodeIgniter\Session\Handlers\FileHandler->gc(86400)
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Session/Session.php(894): session_start()
+#4 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Session/Session.php(238): CodeIgniter\Session\Session->startSession()
+#5 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Config/Services.php(577): CodeIgniter\Session\Session->start()
+#6 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#7 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Config/Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#9 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Config/BaseService.php(248): CodeIgniter\Config\Services::session()
+#10 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/Common.php(909): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#11 /home/linuxedu/public_html/FallenXonline/app/Controllers/Auth.php(27): session()
+#12 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#13 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#14 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2022-06-24 23:10:11 --> Undefined variable: data
+#0 /home/linuxedu/public_html/FallenXonline/app/Controllers/Keys.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/linuxedu/...', 82, Array)
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->download_Keys()
+#2 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-24 23:21:26 --> Undefined variable: key
+#0 /home/linuxedu/public_html/FallenXonline/app/Controllers/Keys.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/linuxedu/...', 73, Array)
+#1 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->download_Keys()
+#2 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-24 23:23:46 --> Undefined variable: file
+#0 /home/linuxedu/public_html/FallenXonline/app/Controllers/Keys.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/linuxedu/...', 90, Array)
+#1 /home/linuxedu/public_html/FallenXonline/app/Controllers/Keys.php(78): App\Controllers\Keys->writeDataFile('0FftYzBZlgSJvn7...')
+#2 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->download_Keys()
+#3 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/linuxedu/public_html/FallenXonline/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/linuxedu/public_html/FallenXonline/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

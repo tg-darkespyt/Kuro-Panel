@@ -1,0 +1,12 @@
+CRITICAL - 2023-01-14 18:52:54 --> Undefined index: HTTP_USER_AGENT
+#0 /home/mrblacke/public_html/mail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/mrblacke/...', 26, Array)
+#1 /home/mrblacke/public_html/app/Views/Auth/login.php(4): include('/home/mrblacke/...')
+#2 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/mrblacke/...')
+#3 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#5 /home/mrblacke/public_html/app/Controllers/Auth.php(36): view('Auth/login', Array)
+#6 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#7 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 /home/mrblacke/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/mrblacke/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

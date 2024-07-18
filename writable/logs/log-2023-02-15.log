@@ -1,0 +1,126 @@
+CRITICAL - 2023-02-15 03:37:50 --> Undefined variable: wow
+#0 /home/darkesp1/public_html/app/Controllers/User.php(421): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/darkesp1/...', 421, Array)
+#1 /home/darkesp1/public_html/app/Controllers/User.php(349): App\Controllers\User->status_act()
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-15 03:50:34 --> syntax error, unexpected 'checked' (T_STRING)
+#0 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/darkesp1/...')
+#1 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-15 04:03:05 --> There is no data to update.
+#0 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 /home/darkesp1/public_html/app/Controllers/User.php(458): CodeIgniter\Model->update(1, Array)
+#3 /home/darkesp1/public_html/app/Controllers/User.php(354): App\Controllers\User->esp_act()
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#5 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-15 04:05:50 --> There is no data to update.
+#0 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 /home/darkesp1/public_html/app/Controllers/User.php(458): CodeIgniter\Model->update(1, Array)
+#3 /home/darkesp1/public_html/app/Controllers/User.php(354): App\Controllers\User->esp_act()
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#5 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-15 04:23:04 --> There is no data to update.
+#0 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 /home/darkesp1/public_html/app/Controllers/User.php(489): CodeIgniter\Model->update(1, Array)
+#3 /home/darkesp1/public_html/app/Controllers/User.php(354): App\Controllers\User->feature_act()
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#5 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-15 04:23:23 --> There is no data to update.
+#0 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 /home/darkesp1/public_html/app/Controllers/User.php(489): CodeIgniter\Model->update(1, Array)
+#3 /home/darkesp1/public_html/app/Controllers/User.php(354): App\Controllers\User->feature_act()
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#5 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-15 04:30:53 --> syntax error, unexpected ''status'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE)
+#0 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/darkesp1/...')
+#1 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Serv...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Serv...')
+#3 /home/darkesp1/public_html/app/Controllers/User.php(381): spl_autoload_call('App\\Models\\Serv...')
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#5 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-15 04:31:38 --> Class 'App\Controllers\Feature' not found
+#0 /home/darkesp1/public_html/app/Controllers/User.php(354): App\Controllers\User->feature_act()
+#1 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-15 04:34:13 --> Class 'App\Controllers\Feature' not found
+#0 /home/darkesp1/public_html/app/Controllers/User.php(354): App\Controllers\User->feature_act()
+#1 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-15 03:54:52 --> Undefined index: status
+#0 /home/darkesp1/public_html/app/Views/Server/Server.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/darkesp1/...', 164, Array)
+#1 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/darkesp1/...')
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Server/Server', Array, true)
+#4 /home/darkesp1/public_html/app/Controllers/User.php(388): view('Server/Server', Array)
+#5 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#6 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-15 06:02:06 --> Undefined variable: idKeys
+#0 /home/darkesp1/public_html/app/Controllers/Keys.php(470): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/darkesp1/...', 470, Array)
+#1 /home/darkesp1/public_html/app/Controllers/Keys.php(306): App\Controllers\Keys->generate_action()
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-15 06:03:59 --> Undefined variable: idKeys
+#0 /home/darkesp1/public_html/app/Controllers/Keys.php(563): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/darkesp1/...', 563, Array)
+#1 /home/darkesp1/public_html/app/Controllers/Keys.php(399): App\Controllers\Keys->generate_action()
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-15 07:02:38 --> There is no data to update.
+#0 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update(NULL, Array)
+#2 /home/darkesp1/public_html/app/Controllers/Keys.php(167): CodeIgniter\Model->update()
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->api_key_reset()
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#5 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-15 16:41:06 --> Undefined variable: wow
+#0 /home/darkesp1/public_html/app/Controllers/User.php(408): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/darkesp1/...', 408, Array)
+#1 /home/darkesp1/public_html/app/Controllers/User.php(363): App\Controllers\User->_ftext_act()
+#2 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\User->Server()
+#3 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 /home/darkesp1/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/darkesp1/public_html/index.php(71): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,89 @@
+CRITICAL - 2024-04-13 12:48:08 --> Undefined offset: 0
+#0 /home/dora30319318/public_html/api_user/app/Helpers/nata_helper.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/dora30319...', 87, Array)
+#1 /home/dora30319318/public_html/api_user/app/Controllers/Keys.php(735): getPrice(Array, '0', '20', '1')
+#2 /home/dora30319318/public_html/api_user/app/Controllers/Keys.php(704): App\Controllers\Keys->generate_action()
+#3 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#4 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#5 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/dora30319318/public_html/api_user/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-04-13 13:06:54 --> Undefined variable: drtnc
+#0 /home/dora30319318/public_html/api_user/app/Controllers/Keys.php(810): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/dora30319...', 810, Array)
+#1 /home/dora30319318/public_html/api_user/app/Controllers/Keys.php(704): App\Controllers\Keys->generate_action()
+#2 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/dora30319318/public_html/api_user/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-04-13 13:07:15 --> Undefined variable: drtnc
+#0 /home/dora30319318/public_html/api_user/app/Controllers/Keys.php(810): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/dora30319...', 810, Array)
+#1 /home/dora30319318/public_html/api_user/app/Controllers/Keys.php(704): App\Controllers\Keys->generate_action()
+#2 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/dora30319318/public_html/api_user/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-04-13 13:09:05 --> Undefined variable: drtnc
+#0 /home/dora30319318/public_html/api_user/app/Controllers/Keys.php(810): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/dora30319...', 810, Array)
+#1 /home/dora30319318/public_html/api_user/app/Controllers/Keys.php(704): App\Controllers\Keys->generate_action()
+#2 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/dora30319318/public_html/api_user/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-04-13 13:10:52 --> Undefined variable: drtnc
+#0 /home/dora30319318/public_html/api_user/app/Controllers/Keys.php(809): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/dora30319...', 809, Array)
+#1 /home/dora30319318/public_html/api_user/app/Controllers/Keys.php(704): App\Controllers\Keys->generate_action()
+#2 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/dora30319318/public_html/api_user/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-04-13 13:15:18 --> Undefined variable: channel
+#0 /home/dora30319318/public_html/api_user/app/Controllers/Keys.php(815): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/dora30319...', 815, Array)
+#1 /home/dora30319318/public_html/api_user/app/Controllers/Keys.php(704): App\Controllers\Keys->generate_action()
+#2 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/dora30319318/public_html/api_user/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-04-13 13:15:46 --> Undefined variable: channel
+#0 /home/dora30319318/public_html/api_user/app/Controllers/Keys.php(815): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/dora30319...', 815, Array)
+#1 /home/dora30319318/public_html/api_user/app/Controllers/Keys.php(704): App\Controllers\Keys->generate_action()
+#2 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/dora30319318/public_html/api_user/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-04-13 13:16:14 --> Undefined variable: channel
+#0 /home/dora30319318/public_html/api_user/app/Controllers/Keys.php(815): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/dora30319...', 815, Array)
+#1 /home/dora30319318/public_html/api_user/app/Controllers/Keys.php(704): App\Controllers\Keys->generate_action()
+#2 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Keys->generate()
+#3 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keys))
+#4 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/dora30319318/public_html/api_user/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-04-13 18:56:06 --> Undefined index: HTTP_USER_AGENT
+#0 /home/dora30319318/public_html/api_user/mail.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/dora30319...', 44, Array)
+#1 /home/dora30319318/public_html/api_user/app/Views/Auth/login.php(4): include('/home/dora30319...')
+#2 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/dora30319...')
+#3 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#5 /home/dora30319318/public_html/api_user/app/Controllers/Auth.php(54): view('Auth/login', Array)
+#6 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#7 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/dora30319318/public_html/api_user/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-13 20:42:32 --> Undefined index: HTTP_USER_AGENT
+#0 /home/dora30319318/public_html/api_user/mail.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/dora30319...', 44, Array)
+#1 /home/dora30319318/public_html/api_user/app/Views/Auth/login.php(4): include('/home/dora30319...')
+#2 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/dora30319...')
+#3 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#5 /home/dora30319318/public_html/api_user/app/Controllers/Auth.php(54): view('Auth/login', Array)
+#6 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#7 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 /home/dora30319318/public_html/api_user/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/dora30319318/public_html/api_user/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
