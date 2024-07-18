@@ -1,0 +1,72 @@
+[24-Jun-2022 09:29:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Kint\Kint' not found in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init.php on line 46
+[24-Jun-2022 09:29:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Kint\Kint' not found in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init.php on line 46
+[24-Jun-2022 09:29:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Kint\Kint' not found in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init.php on line 46
+[24-Jun-2022 09:29:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Kint\Kint' not found in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init_helpers.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init_helpers.php on line 41
+[24-Jun-2022 09:29:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Kint\Kint' not found in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init_helpers.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init_helpers.php on line 41
+[24-Jun-2022 09:29:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Kint\Kint' not found in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init_helpers.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init_helpers.php on line 41
+[24-Jun-2022 09:29:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Kint\Kint' not found in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init.php on line 46
+[24-Jun-2022 09:29:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Kint\Kint' not found in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init_helpers.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init_helpers.php on line 41
+[24-Jun-2022 09:29:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Kint\Kint' not found in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init.php on line 46
+[24-Jun-2022 09:29:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Kint\Kint' not found in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init.php on line 46
+[24-Jun-2022 10:57:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Kint\Kint' not found in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init_helpers.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init_helpers.php on line 41
+[24-Jun-2022 10:57:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Kint\Kint' not found in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init_helpers.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init_helpers.php on line 41
+[24-Jun-2022 10:57:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Kint\Kint' not found in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init_helpers.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init_helpers.php on line 41
+[24-Jun-2022 10:57:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Kint\Kint' not found in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init_helpers.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init_helpers.php on line 41
+[24-Jun-2022 10:57:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Kint\Kint' not found in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init.php on line 46
+[24-Jun-2022 10:57:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Kint\Kint' not found in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init.php on line 46
+[24-Jun-2022 10:57:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Kint\Kint' not found in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init.php on line 46
+[24-Jun-2022 10:57:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Kint\Kint' not found in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init_helpers.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/linuxedu/public_html/FallenXonline/vendor/kint-php/kint/init_helpers.php on line 41
