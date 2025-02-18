@@ -1,4 +1,5 @@
 name: PHP Composer
+theme: jekyll-theme-minimal
 
 on:
   push:
